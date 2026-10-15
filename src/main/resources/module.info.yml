@@ -1,0 +1,13 @@
+manifest-version: 2
+id: velocity-overview
+name: Network Overview
+description: Native Velocity server listing command and proxy service example
+version: '1.0.0'
+target-platform: VELOCITY
+minecraft-min: '1.13'
+java-version: 21
+api-version: 1
+configuration-schema: 1
+main: org.wannes.plugmodcore.overview.OverviewModule
+exports: [org.wannes.plugmodcore.overview.api]
+capabilities: [proxy.commands, proxy.events]
